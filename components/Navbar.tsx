@@ -22,7 +22,7 @@ const Navbar = () => {
       setScrollProgress(scrolled);
       
       // Detect active section
-      const sections = ['home', 'about', 'education', 'internship', 'projects', 'skills', 'certifications', 'achievements', 'contact'];
+      const sections = ['home', 'about', 'education', 'internship', 'projects', 'skills','blogs', 'certifications', 'achievements', 'contact'];
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
